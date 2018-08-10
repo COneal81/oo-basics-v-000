@@ -24,7 +24,7 @@ class Book
   end
   
   def genre= (type_of_book)
-    @genre - type_of_book
+    @genre = type_of_book
   end
   
   def genre
