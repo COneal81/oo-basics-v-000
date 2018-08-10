@@ -14,6 +14,6 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 end
-
-shoe.condition = "new"
-shoe.condition
+sneaker = Shoe.new
+sneaker.condition = "new"
+sneaker.condition
